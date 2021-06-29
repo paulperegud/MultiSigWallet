@@ -15,24 +15,26 @@ Install
 apt install -y libusb-1.0-0-dev
 
 # Latest NodeJS (v12.13.0) does NOT appear to work correctly.
-# You should use NVM and install Node v6.17.1 for best results: https://github.com/nvm-sh/nvm
-# Tested by @Privex on 2019-Nov-06 with v6.17.1 with success
-nvm install v6.17.1
+# You should use NVM and install Node v10.24.1 for best results: https://github.com/nvm-sh/nvm
+# Tested by @vogelito on 2021-Jun-27 with v10.24.1 with success
+nvm install v10.24.1
 
 git clone https://github.com/gnosis/MultiSigWallet.git
 cd MultiSigWallet/dapp
 
 # node-gyp is required for 'npm install' to work correctly
-npm install node-gyp
+npm install -g node-gyp@4.0.0
 
-npm install -g grunt-cli
-npm install
+npm install -g grunt-cli@1.3.2
+npm install arr-flatten@1.1.0
 grunt
 ```
 
 Test
 -------------
 ```
+npm install -g ganache-cli@6.4.3
+
 npm test
 ```
 

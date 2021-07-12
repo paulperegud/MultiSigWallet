@@ -2535,7 +2535,7 @@ th {
 }
 .table-bordered {
   /* border: 1px solid #2b4c62; */
-  border: 1px solid #255345;
+  border: 1px solid #1a312a;
 }
 .table-bordered > thead > tr > th,
 .table-bordered > tbody > tr > th,
@@ -2544,7 +2544,7 @@ th {
 .table-bordered > tbody > tr > td,
 .table-bordered > tfoot > tr > td {
   /* border: 1px solid #2b4c62; */
-  border: 1px solid #255345;
+  border: 1px solid #1a312a;
 }
 .table-bordered > thead > tr > th,
 .table-bordered > thead > tr > td {
@@ -5708,7 +5708,7 @@ button.list-group-item-danger.active:focus {
   /* background-color: #2b4c62;
   border-top: 1px solid #2b4c62; */
   background-color: #255345;
-  border-top: 1px solid #255345;
+  border-top: 1px solid #1a312a;
   border-bottom-right-radius: -1px;
   border-bottom-left-radius: -1px;
 }

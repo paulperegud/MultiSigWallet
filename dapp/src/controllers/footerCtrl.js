@@ -5,6 +5,10 @@
       .controller('footerCtrl', function ($scope, Utils) {
         $scope.navCollapsed = true;
 
+        $scope.openGithub = function () {
+          Utils.openResource(txDefault.resources.multiSigGithub);
+        }
+
         // electron show terms and policy
         // `shell` is an Electron only command
         $scope.openTerms = function() {

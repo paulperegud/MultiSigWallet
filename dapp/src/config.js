@@ -6,6 +6,7 @@ var txDefaultOrig =
     "ethGasStation": "https://safe-relay.gnosis.pm/api/v1/gas-station/"
   },
   resources : {
+    "multiSigGithub": "https://github.com/gnosis/MultiSigWallet",
     "termsOfUse": "https://wallet.gnosis.pm/TermsofUseMultisig.pdf",
     "privacyPolicy": "https://gnosis.io/privacy-policy",
     "imprint": "https://wallet.gnosis.pm/imprint.html"

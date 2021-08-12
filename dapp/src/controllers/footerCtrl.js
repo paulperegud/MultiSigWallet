@@ -9,20 +9,9 @@
           Utils.openResource(txDefault.resources.multiSigGithub);
         }
 
-        // electron show terms and policy
-        // `shell` is an Electron only command
-        $scope.openTerms = function() {
-          Utils.openResource(txDefault.resources.termsOfUse);
+        $scope.openFork = function () {
+          Utils.openResource(txDefault.resources.restyledFork);
         }
-
-        $scope.openPolicy = function () {
-          Utils.openResource(txDefault.resources.privacyPolicy);
-        }
-
-        $scope.openImprint = function () {
-          Utils.openResource(txDefault.resources.imprint);
-        }
-
       });
     }
 )();

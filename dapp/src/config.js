@@ -7,9 +7,7 @@ var txDefaultOrig =
   },
   resources : {
     "multiSigGithub": "https://github.com/gnosis/MultiSigWallet",
-    "termsOfUse": "https://wallet.gnosis.pm/TermsofUseMultisig.pdf",
-    "privacyPolicy": "https://gnosis.io/privacy-policy",
-    "imprint": "https://wallet.gnosis.pm/imprint.html"
+    "restyledFork": "https://github.com/golemfoundation/MultiSigWallet"
   },
   gasLimit: 3141592,
   gasPrice: 18000000000,
